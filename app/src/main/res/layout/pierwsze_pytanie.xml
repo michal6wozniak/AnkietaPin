@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.user.ankieta.PytaniePierwsze">
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:text="1. Kiedy przyjechał Pan/i do Gdyni?"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="left"
+        android:textColor="@color/colorAccent"/>
+
+    <DatePicker
+        android:id="@+id/timePicker"
+        android:layout_width="331dp"
+        android:layout_height="413dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="left"
+        android:text="2. Czy przyjechał Pan/i bezpośrednio z miejsca zamieszkania?"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/radio_group_pyt1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <RadioButton android:id="@+id/radio_pyt1OdpA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tak"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton android:id="@+id/radio_pyt1OdpB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nie"
+                android:layout_marginBottom="10dp"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Dalej"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button_pyt1"
+        android:textColor="@color/mainPrimaryLight"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+</LinearLayout>

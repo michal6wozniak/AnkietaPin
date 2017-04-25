@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.user.ankieta.Metryczka">
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="M1. Płeć:"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:gravity="left"
+                    android:textColor="@color/mainColorMetric"/>
+
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="left"
+                    android:id="@+id/radio_group_pytM1">
+
+                    <RadioButton android:id="@+id/radio_M1OdpA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kobieta"
+                        android:layout_marginBottom="10dp"/>
+
+                    <RadioButton android:id="@+id/radio_M1OdpB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mężczyzna"
+                        android:layout_marginBottom="10dp"/>
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="M2. Wiek:"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:gravity="left"
+                    android:textColor="@color/mainColorMetric"/>
+
+                <EditText android:id="@+id/edit_textM2"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Rok"
+                    android:gravity="center"
+                    android:inputType="date"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="M3. Status zawodowy:"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:gravity="left"
+                    android:textColor="@color/mainColorMetric"/>
+
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="left"
+                    android:id="@+id/radio_group_pytM3">
+
+                    <RadioButton android:id="@+id/radio_M3OdpA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Uczeń/Uczennica"
+                        android:layout_marginBottom="10dp"/>
+
+                    <RadioButton android:id="@+id/radio_M3OdpB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Student/ka"
+                        android:layout_marginBottom="10dp"/>
+
+                    <RadioButton android:id="@+id/radio_M3OdpC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pracujący na własny rachunek"
+                        android:layout_marginBottom="10dp"/>
+
+                    <RadioButton android:id="@+id/radio_M3OdpD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Praca umysłowa"
+                        android:layout_marginBottom="10dp"/>
+
+                    <RadioButton android:id="@+id/radio_M3OdpE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Praca fizyczna"
+                        android:layout_marginBottom="10dp"/>
+
+                    <RadioButton android:id="@+id/radio_M3OdpF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Eneryt-ka/rencista-ka"
+                        android:layout_marginBottom="10dp"/>
+
+                    <RadioButton android:id="@+id/radio_M3OdpG"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Żadne z powyższych"
+                        android:layout_marginBottom="10dp"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="M4. Wykształcenie:"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:gravity="left"
+                    android:textColor="@color/mainColorMetric"/>
+
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="left"
+                    android:id="@+id/radio_group_pytM4">
+
+                    <RadioButton android:id="@+id/radio_M4OdpA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gimnazjalne lub powyższe"
+                        android:layout_marginBottom="10dp"/>
+
+                    <RadioButton android:id="@+id/radio_M4OdpB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Zasadnicze zawodowe"
+                        android:layout_marginBottom="10dp"/>
+
+                    <RadioButton android:id="@+id/radio_M4OdpC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Średnie"
+                        android:layout_marginBottom="10dp"/>
+
+                    <RadioButton android:id="@+id/radio_M4OdpD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wyższe"
+                        android:layout_marginBottom="10dp"/>
+
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="M5. Jak określiłby Pan/i status materialny Pana/i gospodarstwa domowego:"
+            android:textSize="20dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/mainColorMetric"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="left"
+                android:id="@+id/radio_group_pytM5">
+
+                <RadioButton android:id="@+id/radio_M5OdpA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powodzi mi się bardzo dobrze"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioButton android:id="@+id/radio_M5OdpB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powodzi mi się raczej dobrze"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioButton android:id="@+id/radio_M5OdpC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powodzi mi się znośnie/średnio"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioButton android:id="@+id/radio_M5OdpD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powodzi mi się raczej źle"
+                    android:layout_marginBottom="10dp"/>
+
+                <RadioButton android:id="@+id/radio_M5OdpE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powodzi mi się bardzo źle"
+                    android:layout_marginBottom="10dp"/>
+
+            </RadioGroup>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Zakończ ankietę"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="80dp"
+                android:id="@+id/button_metryczka"
+                android:textColor="#fff"
+                android:background="@color/colorSuccessDark"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

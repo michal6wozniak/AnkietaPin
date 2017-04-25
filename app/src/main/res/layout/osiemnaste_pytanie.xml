@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.user.ankieta.PytanieOsiemnaste">
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:text="18. Jakim środkiem transportu porusza się Pan/i po
+       Gdyni?"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="left"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+
+        <CheckBox android:id="@+id/checkboxPyt18OdpA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Samochód"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp" />
+
+        <CheckBox android:id="@+id/checkboxPyt18OdpB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Komunikacja miejska"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp" />
+
+        <CheckBox android:id="@+id/checkboxPyt18OdpC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SKM"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp" />
+
+        <CheckBox android:id="@+id/checkboxPyt18OdpD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rower"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp" />
+
+        <CheckBox android:id="@+id/checkboxPyt18OdpE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Motocykl"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp" />
+
+        <CheckBox android:id="@+id/checkboxPyt18OdpF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pieszo"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <CheckBox android:id="@+id/checkboxPyt18OdpG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inny środek transportu -"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"/>
+
+            <EditText
+                android:id="@+id/edit_textPyt18"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="left"
+                android:hint=" jaki?" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Dalej"
+        android:layout_marginTop="30dp"
+        android:id="@+id/button_pyt18"
+        android:textColor="@color/mainPrimaryLight"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+</LinearLayout>

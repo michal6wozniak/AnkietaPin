@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.user.ankieta.PytanieDwudziestePierwsze">
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:text="21. Jak często odwiedza Pan/i Gdynię?"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="left"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="left"
+            android:id="@+id/radio_group_pyt21">
+
+            <RadioButton android:id="@+id/radio_pyt21OdpA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jestem tu po raz pierwszy"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton android:id="@+id/radio_pyt21OdpB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jestem tu po raz drugi"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton android:id="@+id/radio_pyt21OdpC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Byłem/am tu 3-5 razy"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton android:id="@+id/radio_pyt21OdpD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Byłem/am tu więcej niż 5 razy"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Dalej"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button_pyt21"
+        android:textColor="@color/mainPrimaryLight"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        />
+</LinearLayout>

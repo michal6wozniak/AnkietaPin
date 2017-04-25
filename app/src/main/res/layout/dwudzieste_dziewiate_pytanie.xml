@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.user.ankieta.PytanieDwudziesteDziewiate">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="left"
+        android:text="29. W jakim celu odwiedził/a Pan/i punkt IT?"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:weightSum="1">
+
+        <CheckBox
+            android:id="@+id/checkboxPyt29OdpA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Informacja o atrakcjach turystycznych"
+            android:textSize="18dp" />
+
+        <CheckBox
+            android:id="@+id/checkboxPyt29OdpB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Chciałem uzyskać mapę Gdyni"
+            android:textSize="18dp" />
+
+        <CheckBox
+            android:id="@+id/checkboxPyt29OdpC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Chciałem dowiedzieć się czegoś o komunikacji publicznej"
+            android:textSize="18dp" />
+
+        <CheckBox
+            android:id="@+id/checkboxPyt29OdpD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Pytałem o drogę"
+            android:textSize="18dp" />
+
+        <CheckBox
+            android:id="@+id/checkboxPyt29OdpE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Chciałem uzyskać inne materiały turystyczne"
+            android:textSize="18dp" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkboxPyt29OdpF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Inny powód -"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edit_textPyt29"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="left"
+                android:hint=" jaki?" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:gravity="left"
+            android:text="30. W skali od 1 do 5 jak Pan/i ocenia jakość obsługi i jakość udzielonej informacji w punkcie IT"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"/><!--A-->
+
+        <SeekBar
+            android:id="@+id/seekBarPyt30OdpA"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:max="5" />
+
+        <TextView
+            android:id="@+id/textViewPyt30A"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="left"
+            android:text="31. W przypadku ocen 1,2 i 3 prosimy o informację, co należałoby poprawić w celu podniesienia jakośći obsługi w punkcie IT"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"/>
+
+        <EditText
+            android:id="@+id/edit_textPyt31"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:hint="Informacja" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Dalej"
+        android:layout_marginTop="30dp"
+        android:id="@+id/button_pyt29"
+        android:textColor="@color/mainPrimaryLight"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+</LinearLayout>

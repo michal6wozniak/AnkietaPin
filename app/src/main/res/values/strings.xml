@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Ankieta</string>
+    <string-array name="nazwy_wojewodztw">
+        <item>Zaznacz odpowiedź</item>
+        <item>dolnośląskie</item>
+        <item>kujawsko-pomorskie</item>
+        <item>lubelskie</item>
+        <item>lubuskie</item>
+        <item>łódzkie</item>
+        <item>małopolskie</item>
+        <item>mazowieckie</item>
+        <item>opolskie</item>
+        <item>podkarpackie</item>
+        <item>podlaskie</item>
+        <item>pomorskie</item>
+        <item>śląskie</item>
+        <item>świętokrzyskie</item>
+        <item>warmińsko-mazurskie</item>
+        <item>wielkopolskie</item>
+        <item>zachodniopomorskie</item>
+    </string-array>
+    <string-array name="nazwy_zakwaterowania">
+        <item>Zaznacz odpowiedź</item>
+        <item>Hotel *</item>
+        <item>Hotel **</item>
+        <item>Hotel ***</item>
+        <item>Hotel ****</item>
+        <item>Hotel *****</item>
+        <item>Hostel</item>
+        <item>Pensjonat</item>
+        <item>Motel</item>
+        <item>Kwatera prywatna/apartament</item>
+        <item>Schronisko młodzieźowe</item>
+        <item>Pole namiotowe/Kemping</item>
+        <item>Ośrodek wczasowy</item>
+        <item>U rodziny znajomych</item>
+        <item>Własne mieszkanie/dom</item>
+        <item>Inne</item>
+    </string-array>
+    <string-array name="nazwy_glownego_celu">
+        <item>Zaznacz odpowiedź</item>
+        <item>Wypoczynek</item>
+        <item>Zwiedzanie zabytków</item>
+        <item>Udział w szkoleniu</item>
+        <item>Odwiedzenie krewnych lub znajomych</item>
+        <item>Poznawanie kultury, historii i miejscowych zabytków</item>
+        <item>Udział w wydarzeniu kulturalnym</item>
+        <item>Udział w imprezie sportowej</item>
+        <item>Sprawy słóżbowe / interesy</item>
+        <item>Rozrywka (kluby, dyskoteki, puby)</item>
+        <item>Inny cel</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

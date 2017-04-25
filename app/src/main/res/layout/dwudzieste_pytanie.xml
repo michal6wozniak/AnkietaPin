@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.user.ankieta.PytanieDwudzieste">
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:text="20 Jakie obiekty i atrakcje turystyczne w Gdyni
+    zamierza Pan/i zwiedzić lub Pan/i zwiedził/a
+    podczas tego pobytu?"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:weightSum="1">
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Akwarium Gdyńskie Morskiego Instytutu Rybackiego"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp" />
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bulwar Nadmorski"
+            android:textSize="18dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Centrum Nauki EXPERYMENT"
+            android:textSize="18dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plaża"
+            android:textSize="18dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gdynia Arena"
+            android:textSize="18dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gdyński Szlak Modernizmu"
+            android:textSize="18dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kolejak na Kamienną Górę / Kamienna Góra"
+            android:textSize="18dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Molo w Orłowie oraz Domek Żeromskiego"
+            android:textSize="18dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muzeum Emigracji"
+            android:textSize="18dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muzeum Marynarki Wojennej"
+            android:textSize="18dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muzeum Miasta Gdynia"
+            android:textSize="18dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ORP Błyskawica"
+            android:textSize="18dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Planetarium im. Antoniego Ledóchowskiego Akademii Morskiej w Gdyni"
+            android:textSize="18dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skansen Ryboustwa Morskiego"
+            android:textSize="18dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skwer Kościuszki"
+            android:textSize="18dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Statek-muzeum "Dar Pomorza"'
+            android:textSize="18dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Szlak Kulinarny Centrum Gdyni"
+            android:textSize="18dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Szlak Legendy Morskiej Gdyni"
+            android:textSize="18dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Torpedownia na Babich Dołach"
+            android:textSize="18dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt20OdpU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wieża widokowa w Kolibkach"
+            android:textSize="18dp"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <CheckBox android:id="@+id/checkboxPyt20OdpW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inne -"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"/>
+
+            <EditText
+                android:id="@+id/edit_textPyt20"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="left"
+                android:hint=" jakie?" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Dalej"
+        android:layout_marginTop="8dp"
+        android:id="@+id/button_pyt20"
+        android:textColor="@color/mainPrimaryLight"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

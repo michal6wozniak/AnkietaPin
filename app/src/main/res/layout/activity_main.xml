@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+   <TextView
+       android:layout_width="200dp"
+       android:layout_height="50dp"
+       android:text="Ankieter:"
+       android:textSize="30dp"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="50dp"
+       android:gravity="center"
+       android:textColor="@color/colorAccent"
+       />
+
+    <EditText android:id="@+id/edit_textinicjaly"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:hint="Wpisz inicjały"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Lokalizacja:"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:weightSum="1">
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/radio_group_pyt_miejsce">
+
+            <RadioButton android:id="@+id/radio_pytLokOdpA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Świętojańska"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton android:id="@+id/radio_pytLokOdpB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skwer kościszki"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton android:id="@+id/radio_pytLokOdpC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bulwar"
+                android:layout_marginBottom="10dp" />
+
+            <RadioButton android:id="@+id/radio_pytLokOdpD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inna lokalizacja"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Wersja językowa:"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:weightSum="1">
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/radio_group_pyt_jezyk"
+            android:checkedButton="@+id/radio_pytJezOdpA">
+
+            <RadioButton android:id="@+id/radio_pytJezOdpA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="polska"
+                android:layout_marginBottom="10dp" />
+
+            <RadioButton android:id="@+id/radio_pytJezOdpB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="angielska"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton android:id="@+id/radio_pytJezOdpC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="niemiecka"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton android:id="@+id/radio_pytJezOdpD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rosyjska"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button android:id="@+id/button_pyt0"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Dalej"
+        android:layout_marginTop="0dp"
+        android:textColor="@color/mainPrimaryLight"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

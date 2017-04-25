@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.user.ankieta.PytanieTrzecie">
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:text="3. Skąd bezpośrednio Pan/i przyjechał/a?"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="left"
+        android:textColor="@color/colorAccent"
+        />
+
+    <EditText android:id="@+id/edit_textPyt3odpA"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:hint="Kraj"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:gravity="center"/>
+
+    <EditText android:id="@+id/edit_textPyt3odpB"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:hint="Region/Województwo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:gravity="center"/>
+
+    <EditText android:id="@+id/edit_textPyt3odpC"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:hint="Miasto"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Dalej"
+        android:layout_marginTop="80dp"
+        android:id="@+id/button_pyt3"
+        android:textColor="@color/mainPrimaryLight"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+</LinearLayout>

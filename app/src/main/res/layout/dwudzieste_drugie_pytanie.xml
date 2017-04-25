@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.user.ankieta.PytanieDwudziesteDrugie">
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:text="22. Proszę ocenić w skali 5 stopniowej jakość
+         poszczególnych aspektów pobytu w Gdyni?"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="left"
+        android:textColor="@color/colorAccent"/>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="30dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A. Atmosfera miasta:"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="left" /> <!--A-->
+
+        <SeekBar
+            android:id="@+id/seekBarPyt22OdpA"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:max="5" />
+
+        <TextView
+            android:id="@+id/textViewPyt22A"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B. Oznakowanie turystyczna miasta:"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="left" /> <!--B-->
+
+        <SeekBar
+            android:id="@+id/seekBarPyt22OdpB"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:max="5" />
+
+        <TextView
+            android:id="@+id/textViewPyt22B"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C. Bezpieczeństwo:"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="left" /> <!--C-->
+
+        <SeekBar
+            android:id="@+id/seekBarPyt22OdpC"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:max="5" />
+
+        <TextView
+            android:id="@+id/textViewPyt22C"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D. Czystość na ulicach:"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="left" /> <!--D-->
+
+        <SeekBar
+            android:id="@+id/seekBarPyt22OdpD"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:max="5" />
+
+        <TextView
+            android:id="@+id/textViewPyt22D"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E. Życzliwość mieszkańców:"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="left" /> <!--E-->
+
+        <SeekBar
+            android:id="@+id/seekBarPyt22OdpE"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:max="5" />
+
+        <TextView
+            android:id="@+id/textViewPyt22E"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F. Baza noclegowa:"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="left" /> <!--F-->
+
+        <SeekBar
+            android:id="@+id/seekBarPyt22OdpF"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:max="5" />
+
+        <TextView
+            android:id="@+id/textViewPyt22F"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="G. Baza gastronomiczna:"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="left" /> <!--G-->
+
+        <SeekBar
+            android:id="@+id/seekBarPyt22OdpG"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:max="5" />
+
+        <TextView
+            android:id="@+id/textViewPyt22G"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="H. Oferta kulinarna:"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="left" /> <!--H-->
+
+        <SeekBar
+            android:id="@+id/seekBarPyt22OdpH"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:max="5" />
+
+        <TextView
+            android:id="@+id/textViewPyt22H"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I. Oferta rozrywkowa (kluby, puby, dyskoteki):"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="left" /> <!--I-->
+
+        <SeekBar
+            android:id="@+id/seekBarPyt22OdpI"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:max="5" />
+
+        <TextView
+            android:id="@+id/textViewPyt22I"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="J. Oferta rekreacyjna i sportowa:"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="left" /> <!--J-->
+
+        <SeekBar
+            android:id="@+id/seekBarPyt22OdpJ"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:max="5" />
+
+        <TextView
+            android:id="@+id/textViewPyt22J"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="K. Oferta sklepów i centrów handlowych:"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="left" /> <!--K-->
+
+        <SeekBar
+            android:id="@+id/seekBarPyt22OdpK"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:max="5" />
+
+        <TextView
+            android:id="@+id/textViewPyt22K"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="L. Usług przewodnickich:"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="left" /> <!--L-->
+
+        <SeekBar
+            android:id="@+id/seekBarPyt22OdpL"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:max="5" />
+
+        <TextView
+            android:id="@+id/textViewPyt22L"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="M. Komunikację miejską:"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="left" /> <!--M-->
+
+        <SeekBar
+            android:id="@+id/seekBarPyt22OdpM"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:max="5" />
+
+        <TextView
+            android:id="@+id/textViewPyt22M"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="N. Poruszanie się samochodem po mieście:"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="left" /> <!--N-->
+
+        <SeekBar
+            android:id="@+id/seekBarPyt22OdpN"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:max="5" />
+
+        <TextView
+            android:id="@+id/textViewPyt22N"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"/>
+
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Dalej"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button_pyt22"
+        android:textColor="@color/mainPrimaryLight"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
+

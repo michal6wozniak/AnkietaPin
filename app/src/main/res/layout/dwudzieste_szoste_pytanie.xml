@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.user.ankieta.PytanieDwudziesteSzoste">
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:text="26. Z ofert których instytucji kulturalnych w Gdyni Pan/i skorzystał/a lub ma zamiar skorzystać?"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="left"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+
+        <CheckBox android:id="@+id/checkboxPyt26OdpA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teatr"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt26OdpB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muzeum"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt26OdpC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opera"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt26OdpD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kino"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt26OdpE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Galeria sztuki"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"/>
+
+        <CheckBox android:id="@+id/checkboxPyt26OdpF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filharmonia"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"/>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <CheckBox android:id="@+id/checkboxPyt26OdpG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inna instytucja - "
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"/>
+
+            <EditText
+                android:id="@+id/edit_textPyt26"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="left"
+                android:hint=" jaka?" />
+
+        </LinearLayout>
+
+        <CheckBox android:id="@+id/checkboxPyt26OdpH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Z żadnej"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Dalej"
+        android:layout_marginTop="30dp"
+        android:id="@+id/button_pyt26"
+        android:textColor="@color/mainPrimaryLight"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+
+</LinearLayout>

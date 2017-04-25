@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.user.ankieta.PytanieSiedemnaste">
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:text="17. Za pomocą jakiego środka transportu przybył/a Pan/i bezposrednio do Gdyni?"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="left"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="left"
+            android:id="@+id/radio_group_pyt17">
+
+            <RadioButton android:id="@+id/radio_pyt17OdpA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Samochód"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton android:id="@+id/radio_pyt17OdpB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Samolot"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton android:id="@+id/radio_pyt17OdpC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pociąg"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton android:id="@+id/radio_pyt17OdpD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Autobus kursowy / regularnej linii"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton android:id="@+id/radio_pyt17OdpE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Autobus wycieczkowy"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton android:id="@+id/radio_pyt17OdpF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Żaglówka / łódź"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton android:id="@+id/radio_pyt17OdpG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Statek / prom"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton android:id="@+id/radio_pyt17OdpH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inny środek transportu,"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"/>
+
+        </RadioGroup>
+
+            <EditText
+                android:id="@+id/edit_textPyt17"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:hint="jaki?" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Dalej"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button_pyt17"
+        android:textColor="@color/mainPrimaryLight"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        />
+</LinearLayout>

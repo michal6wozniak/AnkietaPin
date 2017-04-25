@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.user.ankieta.PytanieTrzydziesteDrugie">
+
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:text="32. Proszę o oszacowanie kosztów związanych z pobytem w Gdyni?"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="left"
+        android:textColor="@color/colorAccent"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <EditText android:id="@+id/edit_textPyt32"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Kwota"
+            android:layout_gravity="left"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:inputType="number"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/radio_group_pyt32"
+            android:checkedButton="@+id/radio_pyt32OdpA">
+
+            <RadioButton android:id="@+id/radio_pyt32OdpA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="zł"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton android:id="@+id/radio_pyt32OdpB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EUR"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton android:id="@+id/radio_pyt32OdpC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USD"
+                android:layout_marginBottom="10dp"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:text="33. Ilu osób dotyczą wydatki?"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="left"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/radio_group_pyt33">
+
+            <RadioButton android:id="@+id/checkboxPyt33OdpA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tylko jednej - mnie"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"/>
+
+            <RadioButton android:id="@+id/checkboxPyt33OdpB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Większej liczby osób"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"/>
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/edit_textPyt33"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:hint=" Liczba osób"
+            android:inputType="number"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Dalej"
+            android:layout_marginTop="80dp"
+            android:id="@+id/button_pyt32"
+            android:textColor="@color/mainPrimaryLight"
+            android:background="@color/colorPrimaryDark"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>

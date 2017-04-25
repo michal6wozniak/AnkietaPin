@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.user.ankieta.PytanieDziewietnaste">
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:text="19. Proszę powiedzieć jak Pan/i spędził/a lub będzie spędzać czas w Gdyni (poza głównym celem podróży)"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="left"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+
+        <CheckBox android:id="@+id/checkboxPyt19OdpA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zwiedzanie"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp" />
+
+        <CheckBox android:id="@+id/checkboxPyt19OdpB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zakupy"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp" />
+
+        <CheckBox android:id="@+id/checkboxPyt19OdpC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Udział w imprezach kulturalnych, rozrywkowach"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp" />
+
+        <CheckBox android:id="@+id/checkboxPyt19OdpD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Odwiedzał puby, bary, kluby, etc."
+            android:textSize="18dp"
+            android:layout_marginTop="5dp" />
+
+        <CheckBox android:id="@+id/checkboxPyt19OdpE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Udział w imprezach sportowych"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp" />
+
+        <CheckBox android:id="@+id/checkboxPyt19OdpF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aktywny wypoczynek (pływanie, rower, żagle, konie, itp.)"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp" />
+
+        <CheckBox android:id="@+id/checkboxPyt19OdpG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nie mam czasu wolnego"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp" />
+
+        <CheckBox android:id="@+id/checkboxPyt19OdpH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spacer"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp" />
+
+        <CheckBox android:id="@+id/checkboxPyt19OdpI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Odpoczynek na plaży"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <CheckBox android:id="@+id/checkboxPyt19OdpJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inaczej -"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"/>
+
+            <EditText
+                android:id="@+id/edit_textPyt19"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="left"
+                android:hint=" jak?" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Dalej"
+        android:layout_marginTop="30dp"
+        android:id="@+id/button_pyt19"
+        android:textColor="@color/mainPrimaryLight"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+
+</LinearLayout>

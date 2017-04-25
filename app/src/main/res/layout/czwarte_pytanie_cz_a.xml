@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.user.ankieta.PytanieCzwarteA">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="left"
+        android:text="4. Czy mieszka Pan/i w Polsce?"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent" />
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:id="@+id/radio_group_pyt4a">
+
+            <RadioButton android:id="@+id/radio_pyt4OdpA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tak"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="30dp"
+                />
+
+            <RadioButton android:id="@+id/radio_pyt4OdpB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nie"
+                android:layout_marginBottom="30dp"
+                />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_pyt4a"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Dalej"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/mainPrimaryLight"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        />
+</LinearLayout>
